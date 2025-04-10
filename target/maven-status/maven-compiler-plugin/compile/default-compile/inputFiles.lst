@@ -1,0 +1,10 @@
+/home/sergey/Документы/Мои тестовые проекты/BankTransactionService/src/main/java/com/example/BankTransactionService/BankTransactionServiceApplication.java
+/home/sergey/Документы/Мои тестовые проекты/BankTransactionService/src/main/java/com/example/BankTransactionService/controller/WalletController.java
+/home/sergey/Документы/Мои тестовые проекты/BankTransactionService/src/main/java/com/example/BankTransactionService/model/entity/Wallet.java
+/home/sergey/Документы/Мои тестовые проекты/BankTransactionService/src/main/java/com/example/BankTransactionService/model/request/OperationType.java
+/home/sergey/Документы/Мои тестовые проекты/BankTransactionService/src/main/java/com/example/BankTransactionService/model/request/WalletRequest.java
+/home/sergey/Документы/Мои тестовые проекты/BankTransactionService/src/main/java/com/example/BankTransactionService/model/response/ErrorResponse.java
+/home/sergey/Документы/Мои тестовые проекты/BankTransactionService/src/main/java/com/example/BankTransactionService/model/response/ExceptionHandler.java
+/home/sergey/Документы/Мои тестовые проекты/BankTransactionService/src/main/java/com/example/BankTransactionService/model/response/OkResponse.java
+/home/sergey/Документы/Мои тестовые проекты/BankTransactionService/src/main/java/com/example/BankTransactionService/repository/WalletRepository.java
+/home/sergey/Документы/Мои тестовые проекты/BankTransactionService/src/main/java/com/example/BankTransactionService/service/WalletService.java

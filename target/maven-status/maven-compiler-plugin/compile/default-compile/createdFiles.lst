@@ -1,0 +1,10 @@
+com/example/BankTransactionService/model/entity/Wallet.class
+com/example/BankTransactionService/service/WalletService.class
+com/example/BankTransactionService/model/response/ErrorResponse.class
+com/example/BankTransactionService/BankTransactionServiceApplication.class
+com/example/BankTransactionService/model/request/WalletRequest.class
+com/example/BankTransactionService/model/request/OperationType.class
+com/example/BankTransactionService/model/response/OkResponse.class
+com/example/BankTransactionService/controller/WalletController.class
+com/example/BankTransactionService/repository/WalletRepository.class
+com/example/BankTransactionService/model/response/ExceptionHandler.class

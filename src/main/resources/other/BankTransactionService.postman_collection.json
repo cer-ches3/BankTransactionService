@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "370db712-3cec-4977-a93e-e2ad303848fa",
+		"name": "BankTransactionService",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33432752"
+	},
+	"item": [
+		{
+			"name": "GetAllWallets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}api/v1/wallet",
+					"host": [
+						"{{baseUrl}}api"
+					],
+					"path": [
+						"v1",
+						"wallet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateNewWallet",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}api/v1/wallet/create",
+					"host": [
+						"{{baseUrl}}api"
+					],
+					"path": [
+						"v1",
+						"wallet",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetBalance",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}api/v1/wallet/1ce38b56-fcb6-4837-9014-49a576904ce6",
+					"host": [
+						"{{baseUrl}}api"
+					],
+					"path": [
+						"v1",
+						"wallet",
+						"1ce38b56-fcb6-4837-9014-49a576904ce6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PerformOperation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"walletId\": \"1ce38b56-fcb6-4837-9014-49a576904ce6\",\n    \"operationType\": \"WITHDRAW\",\n    \"amount\": 20.0\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}api/v1/wallet",
+					"host": [
+						"{{baseUrl}}api"
+					],
+					"path": [
+						"v1",
+						"wallet"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
