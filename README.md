@@ -74,3 +74,14 @@ docker compose up
 2. GetBalance - GET localhost:8080/api/v1/wallet/{wallet_id}
 3. GetAllWallets - GET localhost:8080/api/v1/wallet
 4. PerformOperation - POST localhost:8080/api/v1/wallet
+
+### Стек технологий::<br>
+- Java Core
+- Spring Boot
+- JPA
+- Liquibase
+- PostgreSQL
+- Docker
+- Lombok
+- Junit-jupiter
+- Mockito-Core
