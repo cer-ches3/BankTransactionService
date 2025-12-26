@@ -4,8 +4,8 @@ server:
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5433/bank_transaction_system
-    username: postgres
-    password: postgres
+    username: sergey
+    password: cthsq30896
   jpa:
     show-sql: true
   liquibase:

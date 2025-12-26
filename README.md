@@ -46,7 +46,7 @@ docker compose up
 ### Работа приложения
 Для упрощения проверки работоспособности предлагаю использовать готовые запросы для Postman.<br>
 Что нужно сделать:<br>
-1. Импортировать коллекцию в Postman из <u>src/main/resources/other/TaskManagementService.postman_collection.json</u>
+1. Импортировать коллекцию в Postman из <u>src/main/resources/other/BankTransactionService.postman_collection.json</u>
 2. В Postman создать окружение, в котором указать:
 
    | Variable | Type    | Initial value      | Current value |
